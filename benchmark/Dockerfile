@@ -1,4 +1,4 @@
-FROM python:3.9.5
+FROM python:3.10.11
 
 RUN apt-get update -y && apt install libgl1-mesa-glx -y
 
